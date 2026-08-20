@@ -1,15 +1,14 @@
-# W3 · A1 — Connecting CRUD to SQLite
+# Assignment 3: PostgreSQL & Docker Setup
 
-## Overview
-This project replaces the in-memory array storage from Assignment 1 with a persistent SQLite database using `better-sqlite3`.
+## Prerequisites
 
-## Database Details
-* **Database Engine:** SQLite
-* **Driver:** `better-sqlite3`
-* **File Location:** `./tasks.db`
-* **Reasoning:** SQLite was chosen because it is lightweight, serverless, single-file, and ideal for local persistence without requiring complex database server setup.
+- Docker Desktop installed and running
+- Node.js (v18+)
 
-## How to Run
-1. Install dependencies:
+## How to Run the Project
+
+1. **Clone the repository:**
    ```bash
-   npm install
+   git clone [https://github.com/suhail89589/FlyRank.AI-Assignments.git](https://github.com/suhail89589/FlyRank.AI-Assignments.git)
+   cd Assigments-1
+   ```
