@@ -11,11 +11,10 @@ const PORT = process.env.PORT || 8000;
 
 app.use(express.json());
 
-
 const pool = new Pool({
-  connectionString: process.env.DATABASE_URL,
+  connectionString:
+    process.env.DATABASE_URL || "postgres://postgres:dev@db:5432/tasks",
 });
-
 
 async function initDb() {
   await pool.query(`
